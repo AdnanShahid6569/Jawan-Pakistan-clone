@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav{
+    background-color: rgb(255, 254, 254);
+}
+.img1{
+    width: 260px;
+    height: 50px;
+    position: relative;
+    left: 70px;
+    top: 10px;
+}
+
+.navbar{
+    border: 2px solid gray;
+    display: inline-block;
+    position: relative;
+    left: 5em;
+    top: -5px;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    padding: 15px;
+}
+.navbar li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hover:hover{
+    color: rgb(43, 146, 43);
+}
+select:hover{
+    color: rgb(43, 146, 43);
+}
+.dropdown select{
+    border: none;
+    width: 110px;
+    font-size: 23px;
+}
+.dropdown select option{
+    font-size: 18px;
+}
+select option a{
+    padding: 5px;
+}
+/* Navbar end */
+
+/* introduction first Section */
+.first{
+   margin-top: 100px;
+   padding-bottom: 100px;
+   border: 1px solid ,rgb(105, 105, 105,0.09);
+   border-top: none;
+   border-right: none;
+   border-left: none;
+   /* padding-bottom: 100px; */
+
+}
+.firstheading{
+    width: 30%;
+    line-height: 45px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 70px;
+    font-size: 37px;
+    color: green;
+}
+.firstpara{
+    display: inline-block;
+    width: 30%;
+    line-height: 28px;
+    margin-left: 70px;
+    font-size: 18px;
+    color: gray;
+}
+.user{
+    display: inline-block;
+}
+.imguser{
+    position: relative;
+    left: 100px;
+    top: -30px;
+    width: 100vh;
+}
+/* introduction first Section end */
+
+/* introduction Second Section start */
+.second{
+    /* box-shadow: 0 0 10px gray; */
+    padding-bottom: 120px;
+    border: 1px solid rgb(174, 173, 173) ;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    box-shadow: 3px 7px 5px rgb(166, 164, 164);
+
+}
+.secondheading{
+    width: 37%;
+    margin-top: -260px;
+    margin-bottom: 30px;
+    line-height: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 50%;
+    font-size: 37px;
+    color: green;
+}
+.secondpara{
+    display: inline-block;
+     width: 35%;
+    line-height: 28px;
+    margin-left: 50%;
+    margin-bottom: 30px;
+    font-size: 19px;
+    color: gray;
+}
+.secondpara2{
+    display: inline-block;
+    width: 36%;
+    line-height: 28px;
+    margin-left: 50%;
+    font-size: 19px;
+    color: gray;
+}
+.imgman{
+    position: relative;
+    top: 18em;
+    width: 90vh;
+}
+/* introduction Second Section end */
+
+/* Sir img Content start */
+
+.part3{
+    border: 2px solid ,rgb(105, 105, 105,0.09);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    padding-top: 100px;
+    
+}
+.sir{
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    position: relative;
+    left: 40%;
+    top: 10px;
+}
+.sirname{
+    color: green;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.founder{
+    color: rgb(197, 194, 194);
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.quotation{
+    font-size: 50px;
+    color: gray;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.sirpara{
+    color: rgb(121, 119, 119);
+    text-align: center;
+    width: 60%;
+    font-size: 18px;
+    line-height: 30px;
+    position: relative;
+    left: 20%;
+    bottom: 50px;
+}
+/* sir Content end */
+
+/*Courses start  */
+.course{
+    width: 100%;
+    height: 700px;
+    border: 1px solid ,rgba(144, 142, 142, 0.09);
+    box-shadow: 0 7px 5px rgb(158, 149, 149);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding-top:150px;
+    padding-bottom: 90px;
+
+}
+.coursehead{
+    color: green;
+    font-size: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    
+}
+.coursesection{
+    display: inline-block;
+    border: 2px solid rgb(255, 255, 255);
+    width: 250px;
+    margin-left: 15px;
+    padding: 10px;
+    position: relative;
+    left: 150px;
+    top: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+    text-transform: capitalize;
+   
+}
+.coursesection:hover{
+    background-color: white;
+    box-shadow: inset 0 0 5px #777777;
+    
+}
+.course1{
+    width: 100%;
+    height: 180px;
+    margin-bottom: 10px;
+}
+.course2{
+    margin-left: 150px;
+}
+/*Courses end  */
+
+/* JP Team img */
+.pictures{
+    box-sizing: border-box;
+    border: 1px solid rgb(198, 198, 198);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 10px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+.piccontent{
+    font-size: 50px;
+    text-align: center;
+    width: 70%;
+    margin-left: 155px;
+    color: green;
+    margin-bottom: 60px;
+}
+.images1{
+    width: 45%;
+    margin-left: 65px;
+    display: inline-block;
+}
+.one{
+    width: 240px;
+    height: 190px;
+    margin-bottom: 10px; 
+}
+.one1{
+    width: 240px;
+    height: 190px;
+    margin-bottom: 10px; 
+    margin-left: 10px;
+}
+.two{
+    width: 495px;
+    height: 290px; 
+    margin-bottom: 10px;  
+}
+/* images2 */
+.images2{
+    width: 45%;
+    display: inline-block;
+}
+/* JP Team images end */
+
+/* Form start */
+
+.form{
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow:inset 0px 0px 10px rgb(230, 227, 227);
+    width: 40%;
+    margin-left: 30%;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    padding-top: 20px;
+}
+.formhead{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-top: 20px;
+    color: rgb(176, 175, 175);
+}
+label{
+    margin-left: 5%;
+    color: rgb(185, 182, 182);
+    font-size: 20px;
+}
+input{
+    width: 87%;
+    height: 40px;
+    color: rgb(136, 132, 132);
+    margin-bottom: 15px;
+    margin-left: 5%;
+    border: 1px solid rgb(183, 180, 180);
+    font-size: 18px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+textarea{
+    width: 87%;
+    height: 140px;
+    resize: none;
+    margin-left: 5%;
+    font-size: 25px;
+    border: 1px solid rgb(183, 180, 180);
+    padding-left: 10px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+button:hover{
+    border: 2px solid rgb(174, 254, 149);
+    background: rgb(9, 92, 9);
+}
+::placeholder{
+    color: rgb(201, 197, 197);
+    font-size: 20px;
+}
+button{
+    background-color: green;
+    color: white;
+    border: 2px solid green;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 7px 0px 7px 0px;
+    width: 92%;
+    text-align: center;
+    margin-left: 5%;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+/*Form end  */
+
+/* Footer Start */
+.footer{
+max-width: 100%;
+border: 1px solid rgb(183, 180, 180);
+border-bottom: none;
+border-left: none;
+border-right: none;
+padding-bottom: 5em;
+}
+.footimg{
+    width: 260px;
+    height: 50px;    
+    margin-left: 4em;
+    margin-bottom: 18px;
+}
+.footul{
+    margin-top: 1em;
+    /* border: 1px solid rebeccapurple; */
+    width: 10%;
+    margin-left: 13%;
+    /* border: none; */
+    display: inline-block;
+}
+.foothead{
+    /* margin-left: 9em; */
+    margin-bottom: -10px;
+    margin-top: 20px;
+    list-style-type: none;
+    color: rgb(18, 31, 18);
+    padding-bottom: 14px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footul .listfoot{
+    display: block;
+    /* margin-left: 10em; */
+    color: rgb(20, 174, 20);
+    padding-top: 5px;
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+.footul1{
+    display: inline-block;
+    width: 20%;
+    position: relative;
+    left: 14em;
+}
+.foothead2{
+    list-style-type: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: rgb(18, 31, 18);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footul1 .listfoot1{
+    display: block;
+    color: rgb(20, 174, 20);
+    padding-top: 5px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.sectionPart{
+    background-color: aliceblue;
+    height: 20px;
+    padding-top: 1em;
+    padding-left: 3em;
+    padding-bottom: 1em;
+}
+.copyright{
+font-size: 16px;
+color: rgb(164, 160, 160);
+}
+span{
+    margin-left: 43em;
+}
+span a i,.icon{
+    margin-left: 1em;    
+}
